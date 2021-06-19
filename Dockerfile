@@ -1,4 +1,4 @@
-FROM        openjdk:17-jdk-alpine3.13
+FROM        openjdk:16-jdk-alpine3.13
 LABEL       author="Sonicscream" maintainer="sonicscream@cryptoclover.cc"
 RUN         adduser -D -h /home/container container
 USER        container
